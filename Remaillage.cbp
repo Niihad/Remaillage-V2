@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Remaillage" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Remaillage" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="../Remaillage" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Remaillage" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="../Remaillage" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Build.cpp" />
+		<Unit filename="Build.h" />
+		<Unit filename="Remaillage.cpp" />
+		<Unit filename="Vertex.cpp" />
+		<Unit filename="Vertex.h" />
+		<Unit filename="obj/cow.off" />
+		<Unit filename="obj/duck.off" />
+		<Unit filename="obj/horse.off" />
+		<Unit filename="obj/icosahedron.off" />
+		<Unit filename="obj/knot.off" />
+		<Unit filename="obj/octahedron.off" />
+		<Unit filename="obj/small-sphere.off" />
+		<Unit filename="obj/sphere.off" />
+		<Unit filename="obj/test.off" />
+		<Unit filename="obj/test2.off" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
